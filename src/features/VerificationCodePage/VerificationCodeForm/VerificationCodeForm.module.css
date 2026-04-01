@@ -1,0 +1,23 @@
+.verificationC-code-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-unit);
+}
+
+.verificationC-code-form__subtitle {
+    font-size: var(--text-lg);
+    color: var(--color-text-100);
+    text-align: right;
+    margin-bottom: var(--space-lg);
+}
+
+.verificationC-code-form__subtitle a {
+    color: var(--color-link);
+    font-weight: var(--fw-bold);
+}
+
+.verificationC-code-form__button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}

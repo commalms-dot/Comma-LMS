@@ -1,0 +1,92 @@
+.heading {
+    font-weight: 700;
+    font-size: var(--space-lg);
+    line-height: var(--space-xl);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-blue-500);
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-5xl);
+}
+
+.heading span {
+    font-weight: 300;
+    font-size: var(--space-md);
+}
+
+.step-item {
+    margin-bottom: var(--space-xl);
+}
+
+.steps-list,
+.step-heading {
+    font-weight: 600;
+    font-size: var(--space-ml);
+    color: var(--color-blue-500);
+}
+
+.step-heading {
+    text-transform: capitalize;
+    margin-bottom: var(--space-ml);
+}
+
+.step-container {
+    padding: var(--space-lg);
+    border-radius: var(--space-unit);
+    background-color: var(--color-white);
+    min-height: 400px;
+}
+
+.offers-options>div {
+    margin-bottom: var(--space-ml);
+}
+
+.recommend-friend-container {
+    display: grid;
+    flex-basis: 550px;
+    gap: var(--space-md);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.payment-options {
+    position: relative;
+}
+
+.form-label {
+    font-weight: 500;
+    font-size: var(--space-unit);
+    line-height: 20px;
+}
+
+.recommend-friend {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.add-friend-btn {
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.offers-heading {
+    font-size: var(--space-ml);
+    margin-bottom: var(--space-lg);
+    line-height: 30px;
+    color: var(--color-gray-2900);
+}
+
+.order-summary {
+    position: absolute;
+    top: -25%;
+    right: var(--space-lg);
+}
+
+.payment-btn {
+    margin-inline-start: auto;
+    padding-inline: 10px;
+}

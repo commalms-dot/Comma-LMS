@@ -1,0 +1,43 @@
+.card {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.avatar-img {
+	border-radius: 100px;
+	overflow: hidden;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.user-info__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--text-sm);
+    height: 20px;
+}
+
+.user-name {
+	font-weight: 800;
+	font-size: 14px;
+	color: var(--color-primary-100);
+}
+
+.user-role {
+	display: flex;
+	align-items: center;
+	font-weight: 300;
+	font-size: 11px;
+	color: var(--color-primary-100);
+}
+
+.user-organization {
+	font-weight: 700;
+}
+

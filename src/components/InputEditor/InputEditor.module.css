@@ -1,0 +1,31 @@
+.input-editor {
+	width: 100%;
+}
+
+.input-editor textarea {
+	width: 100%;
+	background: #e5e7e8;
+	border: 1px solid var(--color-border-100);
+	border-radius: 8px;
+	resize: none;
+	padding: var(--space-sm);
+}
+
+.input-editor__footer {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: var(--space-md);
+	gap: var(--space-sm);
+}
+
+.input-editor__submit-btn {
+	font-weight: var(--fw-medium) !important;
+	font-size: var(--text-lg) !important;
+}
+
+.input-editor__cancel-btn {
+	font-weight: var(--fw-medium) !important;
+	font-size: var(--text-lg) !important;
+	color: var(--color-primary-100) !important;
+}
+

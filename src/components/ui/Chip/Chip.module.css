@@ -1,0 +1,11 @@
+.chip {
+	font-size: var(--text-xl);
+	font-weight: var(--fw-light);
+	height: 60px;
+	padding: var(--space-unit) var(--space-xl);
+	border: 1px solid var(--color-primary-100);
+	border-radius: 30px;
+	width: fit-content;
+	background: var(--color-neutral-700);
+}
+

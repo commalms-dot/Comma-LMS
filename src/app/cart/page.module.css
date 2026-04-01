@@ -1,0 +1,38 @@
+.header {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: var(--space-xl);
+    color: var(--color-black);
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+
+.cart-items-count {
+    font-weight: 700;
+    font-size: var(--space-lg);
+    margin-bottom: var(--space-xs);
+    color: var(--color-black);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: var(--space-xl);
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: var(--space-lg);
+}
+
+.courses-header {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: var(--space-xl);
+    color: var(--color-black);
+    margin-block: var(--space-lg);
+
+}
+
+.list {
+    flex-basis: 300px;
+    flex-grow: 1;
+}

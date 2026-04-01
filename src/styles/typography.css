@@ -1,0 +1,79 @@
+:root {
+	/* Font sizes */
+	--text-2xs: 10px; /* 0.625rem */
+	--text-xs: 12px; /* 0.75rem */
+	--text-sm: 14px; /* 0.875rem */
+	--text-md: 16px; /* 1rem */
+	--text-lg: 18px; /* 1.125rem */
+	--text-xl: 20px; /* 1.25rem */
+	--text-2xl: 24px; /* 1.5rem */
+	--text-3xl: 30px; /* 1.875rem */
+	--text-4xl: 32px; /* 2rem */
+	--text-5xl: 40px; /* 2.5rem */
+	--text-6xl: 48px; /* 3rem */
+	--text-7xl: 56px; /* 3.5rem */
+
+	/* Line height */
+	--line-height-tight: 100%;
+	--line-height-normal: 125%;
+	--line-height-loose: 150%;
+
+	/* Font weight */
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-semibold: 600;
+	--fw-bold: 700;
+}
+
+/* Headings */
+.heading-1 {
+	font-size: var(--text-4xl);
+	line-height: var(--line-height-normal);
+	font-weight: var(--fw-bold);
+}
+
+.heading-2 {
+	font-size: var(--text-3xl);
+	line-height: var(--line-height-normal);
+	font-weight: var(--fw-semibold);
+}
+
+/* Subtitles */
+.subtitle-1 {
+	font-size: var(--text-2xl);
+	line-height: var(--line-height-loose);
+	font-weight: var(--fw-medium);
+}
+
+.subtitle-2 {
+	font-size: var(--text-xl);
+	line-height: var(--line-height-normal);
+	font-weight: var(--fw-regular);
+}
+
+.subtitle-3 {
+	font-size: var(--text-lg);
+	line-height: var(--line-height-normal);
+	font-weight: var(--fw-semibold);
+}
+
+/* Body Text */
+.body-text {
+	font-size: var(--text-md);
+	line-height: var(--line-height-normal);
+	font-weight: var(--fw-regular);
+}
+
+/* Small Text */
+.small-text {
+	font-size: var(--text-sm);
+	line-height: var(--line-height-tight);
+	font-weight: var(--fw-light);
+}
+
+.wrap-text {
+	white-space: normal; /* Allows text to wrap onto the next line */
+	overflow-wrap: break-word; /* Breaks long words if necessary */
+	word-break: break-word; /* Ensures that words break to avoid overflow */
+}

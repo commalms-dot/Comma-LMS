@@ -1,0 +1,35 @@
+.card {
+	margin-block: 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.avatar-img img {
+	border-radius: 50%;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xxs);
+}
+
+.user-name {
+	font-weight: 800;
+	font-size: 14px;
+	color: #0b243f;
+}
+
+.user-role {
+	display: flex;
+	align-items: center;
+	font-weight: 300;
+	font-size: var(--text-sm);
+	color: #0b243f;
+}
+
+.user-role b {
+	font-weight: var(--fw-bold);
+}
+

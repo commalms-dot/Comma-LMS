@@ -1,0 +1,30 @@
+.public-profile__header {
+	padding: var(--space-md) 0;
+	margin-bottom: var(--space-sm);
+}
+
+.public-profile__header h2 {
+	color: var(--color-primary-100);
+	font-size: var(--text-2xl);
+	font-weight: var(--fw-medium);
+	margin-bottom: var(--space-xs);
+}
+
+.public-profile__header p {
+	color: var(--color-primary-100);
+	font-size: var(--text-lg);
+	font-weight: var(--fw-light);
+}
+
+.public-profile__form-inputs {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-lg);
+}
+
+.public-profile__form__button-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: var(--space-md);
+}
+

@@ -1,0 +1,53 @@
+.share-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hover-card-content {
+    transform-origin: var(--radix-hover-card-content-transform-origin);
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: relative;
+}
+
+.share-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.share-list button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.share-option {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-list button:hover {
+    background-color: #f0f0f0;
+}
+
+.hover-card-arrow {
+    fill: var(--color-white);
+}

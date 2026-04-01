@@ -1,0 +1,61 @@
+.user-avatar-input__avatar-container {
+	margin: auto;
+	position: relative;
+}
+
+.user-avatar-input__avatar-container__image {
+	border-radius: 50%;
+}
+
+.user-avatar-input__avatar-container__edit-btn-wrapper {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.user-avatar-input__avatar-container__edit-btn {
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: var(--color-neutral-200);
+	cursor: pointer;
+}
+
+.user-avatar-input__avatar-container__edit-btn:hover {
+	opacity: 90%;
+}
+
+.user-avatar-input {
+	display: flex;
+	flex-direction: row;
+	gap: var(--space-sm);
+	color: var(--color-primary-100);
+}
+
+.user-avatar-input__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: var(--space-xs);
+}
+
+.user-avatar-input__name {
+	font-weight: var(--fw-medium);
+	font-size: var(--text-2xl);
+
+}
+
+.user-avatar-input__role {
+	font-size: var(--text-lg);
+}
+
+.user-avatar-input__file-input {
+	display: none;
+}

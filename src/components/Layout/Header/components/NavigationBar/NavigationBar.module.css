@@ -1,0 +1,114 @@
+.main-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%; /* ensure it aligns with logo and search bar */
+}
+.main-nav {
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  position: relative;
+}
+
+.logo {
+  text-align: center;
+  flex: 1;
+}
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Right side actions (login & language) */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.language-selector {
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Navigation Links */
+.main-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: var(--space-md);
+  padding: 12px;
+  margin: 0;
+}
+
+.main-nav__item {
+  padding: 8px 16px;
+  font-weight: 500;
+  color: #333;
+  border-bottom: 2px solid transparent;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+  display: flex;
+}
+
+.main-nav__item:hover {
+  color: #0070f3;
+}
+
+.active {
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+}
+
+/* ---------- Responsive Layout ---------- */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .main-nav__list {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    padding: 12px 16px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .main-nav__list--open {
+    display: flex;
+  }
+
+  .nav-container {
+    padding: 8px 12px;
+  }
+
+  .nav-actions {
+    position: absolute;
+    right: 16px;
+    top: 10px;
+  }
+}

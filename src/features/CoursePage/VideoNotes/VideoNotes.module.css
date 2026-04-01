@@ -1,0 +1,90 @@
+.videoNotesContainer {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+  width: 100%;
+  margin-top: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.notesTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.notesInputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.notesInput {
+  resize: none;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  font-size: 0.95rem;
+  min-height: 60px;
+  outline: none;
+}
+
+.addNoteButton {
+  background: #4a8dde;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.addNoteButton:hover {
+  background: #206cca;
+  transition: 0.3s;
+}
+
+.notesList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.noteCard {
+  background: white;
+  border-radius: 8px;
+  padding: 0.7rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.1s ease;
+}
+
+.noteCard:hover {
+  transform: translateY(-2px);
+}
+
+.noteTime {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #10b981;
+}
+
+.noteContent {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.noteMeta {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.emptyNotes {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}

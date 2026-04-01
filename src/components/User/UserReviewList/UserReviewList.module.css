@@ -1,0 +1,13 @@
+.list {
+    display: grid;
+    gap: var(--space-lg);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+}
+
+/* media query less than --breakpoint-md */
+@media (max-width: 768px) {
+    .list {
+        grid-template-columns: 1fr;
+    }
+}

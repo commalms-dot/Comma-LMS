@@ -1,0 +1,45 @@
+.otp-input__inputs {
+	display: flex;
+	gap: var(--space-xxs);
+	justify-content: space-between;
+}
+
+.otp-input__input {
+	width: 86px;
+	height: 64px;
+	border-radius: 8px;
+	margin-top: 18px;
+	background: transparent;
+	font-size: 16px;
+	border-radius: 5px;
+	text-indent: 38px;
+	border: solid 1px var(--color-border-100);
+	outline: none;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: 0.2s ease all;
+	-moz-transition: 0.2s ease all;
+	-ms-transition: 0.2s ease all;
+	-o-transition: 0.2s ease all;
+	transition: 0.2s ease all;
+}
+
+.otp-input__input:focus,
+.otp-input__input:active {
+	outline: none;
+	border-width: 2px;
+	background: transparent;
+}
+
+.form-group__label {
+	font-size: var(--text-md);
+	font-weight: var(--fw-medium);
+	color: var(--color-primary-100);
+	line-height: var(--line-height-normal);
+	margin-bottom: var(--space-sm);
+}
+

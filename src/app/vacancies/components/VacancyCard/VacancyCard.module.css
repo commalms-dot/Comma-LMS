@@ -1,0 +1,75 @@
+.content {
+	background: var(--color-white);
+	border: 1px solid var(--color-gray-100);
+	border-radius: var(--space-md);
+	padding: var(--space-sm);
+	padding-block: var(--space-md);
+	max-width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
+}
+
+.header {
+	background: var(--color-purple-200);
+	border-radius: var(--space-sm);
+	padding-inline: var(--space-sm);
+	padding-bottom: 45px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xs);
+}
+
+.title {
+	font-weight: 700;
+	font-size: var(--space-md);
+	color: var(--color-blue-600);
+	margin-top: var(--space-md);
+}
+
+.perk-list {
+	list-style-type: none;
+	display: flex;
+	gap: var(--space-sm);
+	flex-wrap: wrap;
+}
+
+.perk-item {
+	border: 2px solid var(--color-gray-2800);
+	border-radius: 50px;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: var(--space-sm);
+	text-transform: capitalize;
+	padding-inline: var(--space-sm);
+	padding-block: var(--space-xs);
+	color: var(--color-gray-2800);
+	border: 1px solid var(--color-gray-2800);
+}
+
+.actions {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: var(--space-sm);
+	padding-inline: var(--space-xxs);
+}
+
+.action-button {
+	border: none;
+	outline: none;
+	padding-block: var(--space-xs);
+	background: #171923;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 14px;
+	color: var(--color-white);
+	text-align: center;
+}
+
+.action-button--outline {
+	border: 1px solid #171923;
+	background: var(--color-white);
+	color: #171923;
+}

@@ -1,0 +1,30 @@
+.tab-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.tabs {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.tab-button {
+	font-size: 14px;
+	font-weight: 600;
+	padding: 10px 18px;
+	transition: all 0.2s ease;
+	border-radius: 9999px;
+}
+
+.tab-button.active {
+	background-color: #006400 !important; /* dark green */
+	color: white !important;
+	border: none !important;
+}
+
+.tabs__tab-content {
+	margin-top: 1rem;
+}

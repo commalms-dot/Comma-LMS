@@ -1,0 +1,121 @@
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modalContent {
+    background-color: var(--color-white);
+    border-radius: 8px;
+    padding: var(--space-lg);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.modalHeader {
+    margin-bottom: var(--space-lg);
+}
+
+.modalActions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: var(--space-lg);
+}
+
+.button {
+    padding: var(--space-sm) var(--space-md);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.confirmButton {
+    background-color: var(--color-red-300);
+    color: var(--color-white);
+}
+
+.cancelButton {
+    background-color: var(--color-primary-100);
+    color: var(--color-white);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+    z-index: 2;
+    width: 713px;
+    min-height: 568px;
+    background: var(--color-white);
+    border-radius: 8px;
+    padding: var(--space-lg);
+}
+
+.header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--color-primary-100);
+    margin-bottom: var(--space-lg);
+}
+
+.form-group {
+    margin-bottom: var(--space-ml);
+}
+
+.form-group label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-primary-100);
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+.form-group input {
+    width: 100%;
+    height: var(--space-2xl);
+    padding: var(--space-xs);
+    border: 1px solid var(--color-gray-1900);
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.form-group.expiration-cvv {
+    display: flex;
+    gap: var(--space-md);
+    max-width: 400px;
+}
+
+.form-group.expiration-cvv .form-group {
+    flex: 1;
+}
+
+.submit-btn {
+    width: 196px;
+    height: var(--space-2xl);
+    background: var(--color-blue-300);
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-white);
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.actions {
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    gap: var(--space-md);
+}

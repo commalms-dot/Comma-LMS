@@ -1,0 +1,95 @@
+.button {
+	padding: 8px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	outline: none;
+	cursor: pointer;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	min-height: 40px;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+.button--small {
+	padding: 4px;
+	width: 100px;
+}
+
+.button--medium {
+	padding: 8px;
+	width: 150px;
+}
+
+.button--large {
+	padding: 12px;
+	width: 200px;
+}
+
+.button--full {
+	width: 100%;
+}
+
+.button--fit {
+	width: fit-content;
+}
+
+.button:active {
+	opacity: 0.8;
+}
+
+.button--primary {
+	background-color: var(--color-primary-200);
+	color: white;
+}
+
+.button--secondary {
+	background-color: var(--color-primary-100);
+	color: white;
+}
+
+.button--accent {
+	background-color: var(--color-red-100);
+	color: white;
+}
+
+.button--danger {
+	background-color: var(--color-red-200);
+	color: white;
+}
+
+.button--outline {
+	background-color: transparent;
+	border: 1px solid #cccccc;
+	font-weight: 700;
+	font-size: 16px;
+	color: var(--color-primary-100);
+}
+
+.button--primary-outline {
+	background-color: white;
+	color: var(--color-primary-200);
+	border-color: var(--color-primary-200);
+}
+
+.button--transparent {
+	padding: 0;
+	background-color: transparent;
+	color: var(--color-primary-200);
+}
+
+.button--rounded-large {
+	border-radius: 8px;
+}
+
+.button--rounded-full {
+	border-radius: 9999px;
+}
+
+.button[disabled] {
+	cursor: not-allowed;
+	opacity: 0.6;
+}

@@ -1,0 +1,9 @@
+.suggested-podcasts-heading {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--space-xl);
+    line-height: 51px;
+    text-align: center;
+    margin-block: var(--space-3xl);
+}

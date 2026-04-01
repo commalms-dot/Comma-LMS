@@ -1,0 +1,14 @@
+.acquired-skills {
+	margin-top: var(--space-md);
+}
+
+.skills-list {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: var(--space-md);
+}
+
+.acquired-skills h2 {
+	margin-bottom: var(--space-md);
+}

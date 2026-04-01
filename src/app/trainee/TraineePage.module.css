@@ -1,0 +1,28 @@
+.hero {
+    padding: var(--space-md);
+    border-radius: var(--space-sm);
+    background-color: var(--color-gray-400);
+    display: flex;
+    gap: var(--space-xs);
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    margin-block: var(--space-lg);
+}
+
+.section-header {
+    font-size: var(--space-lg);
+    margin-block: var(--space-md);
+
+}
+
+.image-container {
+    flex-basis: 60%;
+    flex-grow: 1;
+    position: relative;
+    height: 500px;
+    border-radius: var(--space-sm);
+    overflow: hidden;
+}

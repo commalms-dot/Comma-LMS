@@ -1,0 +1,1629 @@
+{
+	"courses": [
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "offline",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"location": "Cairo,Egypt",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "recorded",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		},
+		{
+			"categories": ["computer"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechanical"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 1.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["civil"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["mechatronics"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 2.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder.png"
+		},
+		{
+			"categories": ["industrial"],
+			"type": "interactive",
+			"isFavorite": true,
+			"title": "Advance Civil Engineering Course",
+			"instructor": {
+				"name": "Mahmoud Abdelbaky Osama"
+			},
+			"price": 1252,
+			"discountPrice": 2225,
+			"rating": 3.7,
+			"time": "Tue, 10pm",
+			"reviewsCount": 1254,
+			"image": "/images/card-placeholder2.png"
+		}
+	],
+	"clients": [
+		{
+			"logo": "/images/companies/apple.svg"
+		},
+		{
+			"logo": "/images/companies/google.svg"
+		},
+		{
+			"logo": "/images/companies/microsoft.svg"
+		},
+		{
+			"logo": "/images/companies/sap.svg"
+		},
+		{
+			"logo": "/images/companies/oracle.svg"
+		},
+		{
+			"logo": "/images/companies/slack.svg"
+		}
+	],
+	"instructors": [
+		{
+			"categories": ["computer"],
+			"name": "Mahmoud Osama Abdelbaky",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["industrial"],
+			"name": "Farid Elsaka",
+			"sessionsCount": 125,
+			"reviewsCount": 120,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechanical"],
+			"name": "Sayed Mahmoud",
+			"sessionsCount": 125,
+			"reviewsCount": 2254,
+			"position": "Senior Civil Engineer",
+			"organization": "Orascom",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechatronics"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["civil"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["computer"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["industrial"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechanical"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechatronics"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["civil"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["computer"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["industrial"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechanical"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechatronics"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["civil"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["computer"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["industrial"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechanical"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["mechatronics"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		},
+		{
+			"categories": ["civil"],
+			"name": "Mahmoud Abdelbaky Osama",
+			"sessionsCount": 125,
+			"reviewsCount": 1254,
+			"position": "Senior Civil Engineer",
+			"organization": "Google",
+			"image": "/images/instructor1.png",
+			"isTopRated": true
+		}
+	],
+	"statistics": [
+		{
+			"name": "trainees",
+			"value": 1200,
+			"icon": "/images/trainee.svg"
+		},
+		{
+			"name": "visitors",
+			"value": 1933,
+			"icon": "/images/visitor.svg"
+		},
+		{
+			"name": "trainers",
+			"value": 64,
+			"icon": "/images/trainer.svg"
+		},
+		{
+			"name": "courses",
+			"value": 1209,
+			"icon": "/images/course.svg"
+		},
+		{
+			"name": "locations",
+			"value": 1933,
+			"icon": "/images/location.svg"
+		},
+		{
+			"name": "partners",
+			"value": 1202,
+			"icon": "/images/partner.svg"
+		}
+	],
+	"categories": [
+		{
+			"title": "computer"
+		},
+		{
+			"title": "mechanical"
+		},
+		{
+			"title": "civil"
+		},
+		{
+			"title": "mechatronics"
+		},
+		{
+			"title": "industrial"
+		}
+	],
+	"reviews": [
+		{
+			"categories": ["computer"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["computer"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["computer"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["computer"],
+			"reviewer": {
+				"name": "Mohamed Youssef",
+				"avatarUrl": "/images/temp-user-3.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Sed dapibus enim sit amet lorem ullamcorper, ut ultricies sapien scelerisque. Phasellus nec bibendum libero. Fusce lacinia sollicitudin felis."
+		},
+		{
+			"categories": ["civil"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["civil"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["civil"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["civil"],
+			"reviewer": {
+				"name": "Mohamed Youssef",
+				"avatarUrl": "/images/temp-user-3.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Sed dapibus enim sit amet lorem ullamcorper, ut ultricies sapien scelerisque. Phasellus nec bibendum libero. Fusce lacinia sollicitudin felis."
+		},
+		{
+			"categories": ["mechanical"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["mechanical"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["mechanical"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["mechanical"],
+			"reviewer": {
+				"name": "Mohamed Youssef",
+				"avatarUrl": "/images/temp-user-3.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Sed dapibus enim sit amet lorem ullamcorper, ut ultricies sapien scelerisque. Phasellus nec bibendum libero. Fusce lacinia sollicitudin felis."
+		},
+		{
+			"categories": ["mechanical"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["industrial"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["industrial"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["industrial"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["industrial"],
+			"reviewer": {
+				"name": "Ahmed Ali",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo."
+		},
+		{
+			"categories": ["industrial"],
+			"reviewer": {
+				"name": "Mohamed Youssef",
+				"avatarUrl": "/images/temp-user-3.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Sed dapibus enim sit amet lorem ullamcorper, ut ultricies sapien scelerisque. Phasellus nec bibendum libero. Fusce lacinia sollicitudin felis."
+		},
+		{
+			"categories": ["mechatronics"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["mechatronics"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["mechatronics"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["mechatronics"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		},
+		{
+			"categories": ["mechatronics"],
+			"reviewer": {
+				"name": "Fatima Hassan",
+				"avatarUrl": "/images/temp-user-2.jpeg",
+				"role": "Student"
+			},
+			"reviewee": {
+				"name": "Mahmoud Abdelbaky Osama",
+				"avatarUrl": "/images/temp-user-1.jpeg",
+				"is_instructor": true,
+				"role": "Founder & CEO",
+				"organization": "Google"
+			},
+			"reviewContent": "Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet eros et faucibus facilisis."
+		}
+	],
+	"vacancies": [
+		{
+			"title": "Quality Assurance Engineer",
+			"perks": ["on site", "full time"]
+		},
+		{
+			"title": "Quality Assurance Engineer",
+			"perks": ["on site", "full time"]
+		},
+		{
+			"title": "Quality Assurance Engineer",
+			"perks": ["on site", "full time"]
+		},
+		{
+			"title": "Quality Assurance Engineer",
+			"perks": ["on site", "full time"]
+		},
+		{
+			"title": "Quality Assurance Engineer",
+			"perks": ["on site", "full time"]
+		}
+	],
+	"podcasts": [
+		{
+			"id": "1",
+			"title": "Tech Trends Today",
+			"type": "sound",
+			"image": "/images/card-placeholder.png",
+			"description": "An audio umbrella for a group of technical and knowledge podcasts",
+			"listeners_count": 15000,
+			"likes_count": 1200,
+			"started_at": "2023-04-01T10:00:00Z",
+			"duration": "1h 30m",
+			"authors": ["Jane Doe", "John Smith"],
+			"channels": [
+				{
+					"name": "Apple Podcasts",
+					"iconUrl": "https://example.com/apple-podcasts-icon.png",
+					"url": "https://example.com/tech-trends-today"
+				},
+				{
+					"name": "Spotify",
+					"iconUrl": "https://example.com/spotify-icon.png",
+					"url": "https://example.com/tech-trends-today"
+				},
+				{
+					"name": "Google Podcasts",
+					"iconUrl": "https://example.com/google-podcasts-icon.png",
+					"url": "https://example.com/tech-trends-today"
+				}
+			]
+		}
+	]
+}
+

@@ -1,0 +1,8 @@
+.sub-heading {
+
+    font-size: var(--space-lg);
+    line-height: 46px;
+    text-align: center;
+    color: var(--color-blue-300);
+    margin-bottom: var(--space-lg);
+}

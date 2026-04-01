@@ -1,0 +1,30 @@
+.course-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.course-feedback__rating {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.course-feedback__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.course-feedback__star-rating {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.course-feedback__star-rating span {
+  font-weight: var(--fw-bold);
+}

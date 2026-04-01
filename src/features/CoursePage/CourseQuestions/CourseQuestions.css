@@ -1,0 +1,48 @@
+
+.course-questions__questions-list {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
+}
+
+.course-content-header {
+	margin-top: var(--space-lg);
+	margin-bottom: var(--space-md);
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xxs);
+}
+
+.course-content-header h2 {
+	font-size: var(--text-2xl);
+	font-weight: var(--fw-bold);
+}
+
+.course-content-header p {
+	font-size: var(--text-md);
+}
+
+.course-subtitle {
+	margin-top: var(--space-md);
+	font-size: var(--text-2xl);
+	font-weight: var(--fw-medium);
+}
+
+.course-questions__content {
+	position: relative;
+}
+
+.back-to-questions-btn-container {
+	padding-top: var(--space-lg);
+	padding-bottom: var(--space-lg);
+
+}
+
+.back-to-questions-btn-container button {
+	color: var(--color-primary-100);
+	background: transparent;
+	border: 1px solid var(--color-primary-100);
+	padding: var(--space-sm);
+	font-weight: var(--fw-bold);
+	cursor: pointer;
+}

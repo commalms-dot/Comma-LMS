@@ -1,0 +1,226 @@
+/* app/subscriptions/PlanComparison.module.css */
+.comparisonOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .comparisonContainer {
+    background: white;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e2e8f0;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #718096;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .closeButton:hover {
+    background-color: #f7fafc;
+    color: #4a5568;
+  }
+  
+  .comparisonTable {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tableHeader {
+    display: flex;
+    background-color: #4a5568;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .featureColumn {
+    flex: 2;
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .planColumn {
+    flex: 1;
+    padding: 15px 20px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .planColumn:last-child {
+    border-right: none;
+  }
+  
+  .planName {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .planPrice {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 0;
+  }
+  
+  .planAudience {
+    color: #e2e8f0;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  
+  .ctaButton {
+    padding: 8px 16px;
+    background: #805ad5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+    max-width: 120px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .ctaButton:hover {
+    background: #6b46c1;
+  }
+  
+  .tableBody {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .categorySection {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .categoryRow {
+    display: flex;
+    background-color: #f7fafc;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .categoryName {
+    flex: 2;
+    padding: 12px 20px;
+    text-align: left;
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 16px;
+  }
+  
+  .featureRow {
+    display: flex;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .featureRow:last-child {
+    border-bottom: none;
+  }
+  
+  .featureName {
+    flex: 2;
+    padding: 12px 20px;
+    text-align: left;
+    font-weight: 500;
+    color: #4a5568;
+    font-size: 14px;
+  }
+  
+  .included {
+    color: #38a169;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .notIncluded {
+    color: #a0aec0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .comparisonOverlay {
+      padding: 10px;
+    }
+    
+    .tableHeader {
+      flex-direction: column;
+    }
+    
+    .featureColumn,
+    .planColumn {
+      flex: none;
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .categoryRow,
+    .featureRow {
+      flex-direction: column;
+    }
+    
+    .categoryName,
+    .featureName {
+      width: 100%;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .header {
+      padding: 15px;
+    }
+    
+    .header h1 {
+      font-size: 20px;
+    }
+  }

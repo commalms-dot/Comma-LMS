@@ -1,0 +1,199 @@
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 18px;
+  border: 1px solid #e3e0ff;
+  box-shadow: 0 2px 6px rgba(10, 20, 50, 0.03);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-weight: 700;
+  color: #312e81;
+}
+
+.select {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d6d0ff;
+  background: #f4f3ff;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.courseBlock {
+  background: #f9f9ff;
+  border: 1px solid #e3e0ff;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.courseTitle {
+  font-weight: 700;
+  color: #312e81;
+  margin-bottom: 8px;
+}
+
+.noteList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.note {
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e3e0ff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.note:hover {
+  background-color: #f0f0ff;
+  transform: scale(1.01);
+}
+
+.noteVideo {
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 4px;
+}
+
+.noteText {
+  color: #374151;
+  font-size: 14px;
+}
+
+/* === Modal Styling === */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(50, 50, 150, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 450px;
+  max-width: 90%;
+  box-shadow: 0 4px 10px rgba(50, 50, 150, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalHeader h3 {
+  font-weight: 700;
+  color: #312e81;
+  margin: 0;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #4338ca;
+  transition: 0.3s;
+}
+
+.closeBtn:hover {
+  color: #7c3aed;
+}
+
+.modalBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modalVideo {
+  font-weight: 600;
+  color: #4338ca;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 8px;
+  border: 1px solid #d6d0ff;
+  padding: 10px;
+  font-size: 14px;
+  color: #312e81;
+  background: #f4f3ff;
+  resize: vertical;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cancelBtn,
+.saveBtn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancelBtn {
+  background: #f3f0ff;
+  color: #4338ca;
+}
+
+.cancelBtn:hover {
+  background: #e4dbff;
+}
+
+.saveBtn {
+  background: #4f46e5;
+  color: #fff;
+}
+
+.saveBtn:hover {
+  background: #312e81;
+}

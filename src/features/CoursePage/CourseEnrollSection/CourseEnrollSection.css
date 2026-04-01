@@ -1,0 +1,98 @@
+.course-enroll-section {
+  background: var(--color-neutral-300);
+  padding: var(--space-md);
+  background: var(--color-secondary-100);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.course-enroll-section__header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-sm);
+}
+
+.course-enroll-section__course-name {
+  flex-grow: 1;
+  font-weight: var(--fw-medium);
+  font-size: var(--text-2xl);
+  white-space: normal;
+  overflow: visible;
+  margin-right: var(--space-md);
+}
+
+.course-enroll-section__action-group {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-sm);
+}
+
+.course-enroll-section__action-btn.button--transparent {
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.course-enroll-section__action-btn span {
+  font-size: var(--text-lg);
+  font-weight: 450;
+}
+
+.course-enroll-section__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--text-sm);
+  font-size: var(--text-xl);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-400);
+}
+
+.course-enroll-section__enroll-btn {
+  height: 68px;
+  font-size: var(--text-2xl);
+  font-weight: var(--fw-medium);
+}
+
+.course-enroll-section__action-btn {
+  color: var(--color-primary-100);
+}
+
+@media (max-width: 768px) {
+  .course-enroll-section {
+    padding: var(--space-sm);
+    gap: var(--space-md);
+  }
+
+  .course-enroll-section__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .course-enroll-section__course-name {
+    font-size: var(--text-xl);
+    margin-right: 0;
+  }
+
+  .course-enroll-section__action-group {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .course-enroll-section__action-btn span {
+    font-size: var(--text-base);
+  }
+
+  .course-enroll-section__content {
+    font-size: var(--text-lg);
+  }
+
+  .course-enroll-section__enroll-btn {
+    height: auto;
+    padding: var(--space-sm);
+    font-size: var(--text-xl);
+  }
+}

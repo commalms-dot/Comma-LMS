@@ -1,0 +1,17 @@
+.my-questions__header {
+	padding: var(--space-md) 0;
+}
+
+.my-questions__header h2 {
+	color: var(--color-primary-100);
+	font-size: var(--text-2xl);
+	font-weight: var(--fw-medium);
+	margin-bottom: var(--space-xs);
+}
+
+.my-questions__header p {
+	color: var(--color-primary-100);
+	font-size: var(--text-2xl);
+	font-weight: var(--fw-medium);
+}
+

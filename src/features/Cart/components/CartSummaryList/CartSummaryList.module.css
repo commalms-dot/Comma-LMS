@@ -1,0 +1,40 @@
+.cart-list {
+    border-radius: var(--space-md);
+}
+
+.cart-item {
+    background-color: white;
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--color-gray-300);
+    display: flex;
+    gap: var(--space-sm);
+    flex-direction: row;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: var(--space-sm);
+    color: var(--color-blue-600);
+}
+
+.item-instructor {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--space-xs);
+
+    color: var(--color-blue-600);
+    opacity: 0.5;
+}
+
+.item-price {
+    font-weight: 700;
+    font-size: var(--space-sm);
+    color: var(--color-blue-600);
+}

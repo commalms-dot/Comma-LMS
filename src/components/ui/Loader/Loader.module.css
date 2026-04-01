@@ -1,0 +1,15 @@
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid var(--color-neutral-100);
+    border-right-color: var(--color-blue-600);
+    animation: l2 1s infinite linear;
+    margin: 0 auto;
+}
+
+@keyframes l2 {
+    to {
+        transform: rotate(1turn)
+    }
+}

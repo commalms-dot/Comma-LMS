@@ -1,0 +1,10 @@
+.course-video-description {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xl);
+}
+@media (max-width: 768px) {
+	.course-video-description {
+		gap: var(--space-md);
+	}
+}

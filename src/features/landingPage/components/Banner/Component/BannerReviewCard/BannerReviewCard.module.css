@@ -1,0 +1,14 @@
+.container {
+    border-radius: 10px;
+    background-color: var(--color-white);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 15px;
+    box-shadow: 1px 1px 4px #B1B1B1;
+}
+
+.review {
+    max-width: 20ch;
+}

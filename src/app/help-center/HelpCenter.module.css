@@ -1,0 +1,110 @@
+.help-center-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: var(--space-2xl);
+  background-image: url("/images/help-center-bg.jpeg");
+  background-size: cover;
+  z-index: 20;
+}
+
+.help-center-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.help-center-page__content {
+  z-index: 50;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  transition: flex-direction 0.3s ease-in-out;
+}
+
+.help-center-page__form-wrapper {
+  flex: 1;
+}
+
+.help-center-page__form-wrapper form {
+  max-width: 600px;
+  padding: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  background: var(--color-white);
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+.help-center__form-group {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-md);
+}
+
+.help-center__form-group label {
+  font-weight: var(--fw-semibold);
+}
+
+.help-center__button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.help-center-page__text-wrapper {
+  flex: 1;
+}
+
+.help-center-page__text-wrapper__text {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  padding-top: var(--space-4xl);
+}
+
+.help-center-page__text-wrapper__text h1 {
+  font-size: var(--text-7xl);
+  color: var(--color-white);
+}
+
+.help-center-page__text-wrapper__text p {
+  font-size: var(--text-lg);
+  font-weight: var(--fw-light);
+  color: var(--color-text-200);
+}
+
+@media screen and (max-width: 1280px) {
+  .help-center-page__content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .help-center-page__text-wrapper {
+    text-align: center;
+    margin-bottom: var(--space-md);
+  }
+
+  .help-center-page__form-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .help-center-page__form-wrapper form {
+    margin-left: 0;
+  }
+}

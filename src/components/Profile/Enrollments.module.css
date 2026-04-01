@@ -1,0 +1,133 @@
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(12, 23, 9, 0.04);
+  border: 1px solid #e3e0ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #312e81;
+}
+
+.count {
+  background: #e5e0ff;
+  color: #4f46e5;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f9f9ff;
+  border: 1px solid #e3e0ff;
+}
+
+.itemLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.courseTitle {
+  font-weight: 700;
+  color: #312e81;
+}
+
+.meta {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.progressWrapper {
+  min-width: 120px;
+  text-align: right;
+}
+
+.progressBar {
+  width: 100%;
+  height: 8px;
+  background: #e5e0ff;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #8b5cf6);
+  border-radius: 12px;
+}
+
+.progressLabel {
+  font-size: 13px;
+  color: #4f46e5;
+  font-weight: 700;
+}
+/* Skeleton base */
+.skeleton {
+  background: linear-gradient(90deg, #e5e0ff 25%, #f3f1ff 37%, #e5e0ff 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+  border-radius: 6px;
+}
+
+/* Specific skeleton sizes */
+.skeletonTitle {
+  width: 140px;
+  height: 14px;
+  margin-bottom: 6px;
+}
+
+.skeletonMeta {
+  width: 100px;
+  height: 12px;
+}
+
+.skeletonBar {
+  width: 120px;
+  height: 8px;
+  border-radius: 12px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+.item {
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease;
+  text-decoration: none;
+}
+
+.item:hover {
+  background: #f1f0ff;
+  transform: translateY(-1px);
+}

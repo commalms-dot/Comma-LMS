@@ -1,0 +1,30 @@
+.account-settings__header {
+	padding: var(--space-md) 0;
+	margin-bottom: var(--space-sm);
+}
+
+.account-settings__header h2 {
+	color: var(--color-primary-100);
+	font-size: var(--text-2xl);
+	font-weight: var(--fw-medium);
+	margin-bottom: var(--space-xs);
+}
+
+.account-settings__header p {
+	color: var(--color-primary-100);
+	font-size: var(--text-lg);
+	font-weight: var(--fw-light);
+}
+
+
+.account-settings__divider {
+	color: var(--color-border-100);
+	margin: var(--space-xl) 0;
+}
+
+.account-settings__form-container p {
+	color: var(--color-primary-100);
+	font-size: var(--text-xl);
+	margin-bottom: var(--space-xl);
+}
+

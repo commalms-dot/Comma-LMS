@@ -1,0 +1,99 @@
+.statistics-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+}
+
+.statistics-list {
+    display: grid;
+    gap: var(--space-md) var(--space-xs);
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    justify-items: center;
+}
+
+.statistics__header {
+    align-self: center;
+    font-size: var(--space-xl);
+    font-weight: bold;
+    color: var(--color-primary-100);
+    text-align: center;
+}
+
+.statistics__sub-header {
+    color: var(--color-primary-100);
+    padding: var(--space-xs) var(--space-3xl);
+    background: #7BC5E0;
+    border-radius: var(--space-xs);
+    font-weight: 500;
+    font-size: 22px;
+    align-self: center;
+    text-align: center;
+}
+
+.statistics-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--color-white);
+    color: var(--color-primary-100);
+    border-radius: var(--space-sm);
+    padding: var(--space-md);
+    min-height: 200px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 4px var(--space-3xl) rgba(198, 198, 198, 0.25);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.statistics-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px var(--space-3xl) rgba(198, 198, 198, 0.25);
+    /* background: var(--color-primary-100); */
+    color: var(--color-white);
+}
+
+.statistics__icon:hover {
+    color: var(--color-primary-100);
+
+}
+
+.statistics-item::before {
+    content: '';
+    border-radius: var(--space-sm);
+    position: absolute;
+    bottom: -100%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: var(--color-primary-100);
+    transition: all 0.5s ease-in-out;
+    transform-origin: bottom left;
+}
+
+.statistics-item:hover::before {
+    bottom: 0;
+    left: 0;
+}
+
+.statistics__title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+
+.statistics__value {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .statistics-list {
+        grid-template-columns: 1fr;
+    }
+}

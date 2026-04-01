@@ -1,0 +1,15 @@
+.related-courses-section {
+    margin-top: var(--space-lg);
+}
+
+.courses-list {
+    display: grid;
+    gap: 20px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    justify-items: start;
+    margin-top:var(--space-md);
+}
+
+.courses-list h2 {
+    margin-bottom: var(--space-md);
+}

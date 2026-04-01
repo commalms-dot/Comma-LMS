@@ -1,0 +1,13 @@
+.course-objective-section {
+	width: 100%;
+}
+
+.course-objective-section__objectives-list {
+	margin-top: var(--space-sm);
+	padding-left: 20px;
+	counter-reset: list-counter;
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-sm);
+}
+

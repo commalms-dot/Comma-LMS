@@ -1,0 +1,39 @@
+.course-watch-page {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.course-watch-page__left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.course-watch-page__right-side {
+  width: 350px;
+}
+
+.course-watch-page__tab-content {
+  padding-top: 1rem;
+}
+
+/* Subtitle styling example */
+.subtitle {
+  margin-top: 2rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+/* Responsive layout */
+@media (max-width: 1024px) {
+  .course-watch-page {
+    flex-direction: column;
+  }
+
+  .course-watch-page__right-side {
+    width: 100%;
+  }
+}

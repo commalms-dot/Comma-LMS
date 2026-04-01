@@ -1,0 +1,10 @@
+.content-header {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-md);
+}
+
+.content-header p {
+	color: var(--color-text-400);
+}
+

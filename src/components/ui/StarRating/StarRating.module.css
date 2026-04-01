@@ -1,0 +1,38 @@
+.rating-stars {
+	display: flex;
+	font-size: var(--text-2xl);
+}
+
+.star {
+	display: inline-block;
+	position: relative;
+	width: 20px;
+}
+
+.star.filled {
+	color: var(--color-gold);
+}
+
+.star.full {
+	color: var(--color-gold);
+}
+
+.star.half {
+	color: var(--color-neutral-600);
+	position: relative;
+}
+
+.star.half::after {
+	content: "★";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	overflow: hidden;
+	color: var(--color-gold);
+}
+
+.star.empty {
+	color: var(--color-neutral-600);
+}
+

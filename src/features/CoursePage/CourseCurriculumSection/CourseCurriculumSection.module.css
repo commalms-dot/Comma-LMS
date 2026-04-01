@@ -1,0 +1,12 @@
+.course-curriculum-section {
+	margin-top: var(--space-lg);
+}
+
+.course-curriculum-section h2 {
+	margin-bottom: var(--space-md);
+}
+
+.course-curriculum-section__item__content {
+	padding: var(--space-md);
+	background: var(--color-secondary-100);
+}

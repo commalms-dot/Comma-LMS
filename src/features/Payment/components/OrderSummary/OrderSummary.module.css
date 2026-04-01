@@ -1,0 +1,48 @@
+.card {
+    width: 333px;
+    height: 267px;
+    background: var(--color-white);
+    box-shadow: 0px 4px 20.8px rgba(181, 181, 181, 0.25);
+    border-radius: var(--space-xs);
+    padding-top:
+        var(--space-lg);
+}
+
+
+.heading,
+.price-item {
+    padding-inline: var(--space-xl);
+}
+
+.heading {
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--space-ml);
+    margin-bottom: var(--space-lg);
+}
+
+.price-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-unit);
+}
+
+.price-item {
+    /* Course Price: */
+
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+
+.total .price-item__label {
+    color: var(--color-red-200);
+    font-size: var(--space-ml);
+}

@@ -1,0 +1,56 @@
+.star-rating-summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+.ratingWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(
+    135deg,
+    rgba(147, 197, 253, 0.1),
+    rgba(139, 92, 246, 0.1)
+  );
+  padding: 4px 8px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+
+.ratingValue {
+  font-weight: 700;
+  font-size: 14px;
+  color: #3b82f6;
+}
+
+.reviewCount {
+  font-size: 13px;
+  color: #64748b;
+  opacity: 0.8;
+}
+
+/* Optional hover highlight for stars */
+.star-rating-summary:hover .ratingWrapper {
+  background: linear-gradient(
+    135deg,
+    rgba(147, 197, 253, 0.2),
+    rgba(139, 92, 246, 0.2)
+  );
+  transition: background 0.3s ease;
+}
+
+/* Star wrapper for StarRating component */
+.star-rating-summary svg {
+  width: 18px;
+  height: 18px;
+  fill: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  transition:
+    transform 0.3s ease,
+    fill 0.3s ease;
+}
+
+.star-rating-summary svg:hover {
+  transform: scale(1.2);
+}

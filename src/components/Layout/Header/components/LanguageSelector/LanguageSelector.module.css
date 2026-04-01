@@ -1,0 +1,47 @@
+/* components/LanguageSelector.module.css */
+.trigger {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.languageCode {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #000;
+}
+
+.arrow {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #000;
+}
+
+.content {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.item:hover {
+    background-color: #f0f0f0;
+}
+
+.languageName {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #000;
+}

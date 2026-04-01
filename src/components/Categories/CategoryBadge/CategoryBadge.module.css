@@ -1,0 +1,25 @@
+.category {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.category-label {
+    background: var(--color-primary-100);
+    color: var(--color-neutral-200);
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 99px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+
+.category:checked+.category-label {
+    background: transparent;
+    border-color: #C4C4C4;
+    color: var(--color-primary-100);
+    color: var(--color-primary-100);
+    display: block;
+}

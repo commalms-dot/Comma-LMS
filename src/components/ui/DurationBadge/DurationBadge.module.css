@@ -1,0 +1,15 @@
+.duration-badge {
+    background: var(--color-gray-3100);
+    color: var(--color-white);
+    display: inline-block;
+    min-width: 3.6rem;
+    width: fit-content;
+    text-align: center;
+    background: #2d2f31;
+    color: #fff;
+    line-height: 1.8rem;
+    height: 1.8rem;
+    border-radius: 9999px;
+    padding: 0 .8rem;
+    
+}

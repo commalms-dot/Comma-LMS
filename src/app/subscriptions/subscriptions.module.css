@@ -1,0 +1,346 @@
+/* app/subscriptions/subscriptions.module.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.planCard {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.planCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.planCard.selected {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.planHeader {
+  margin-bottom: 1.5rem;
+}
+
+.planHeader h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.audience {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.priceSection {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.price {
+  font-size: 2rem;
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
+}
+
+.billing {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.ctaButton {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s;
+}
+
+.ctaButton:hover {
+  background-color: #4338ca;
+}
+
+.features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 0.5rem 0;
+  color: #555;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.features li:before {
+  content: "✓";
+  color: #4f46e5;
+  position: absolute;
+  left: 0;
+}
+
+.compareSection {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.compareButton {
+  padding: 0.8rem 1.5rem;
+  background-color: transparent;
+  color: #4f46e5;
+  border: 1px solid #4f46e5;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.compareButton:hover {
+  background-color: #4f46e5;
+  color: white;
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.paymentModal {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.paymentModal h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.planSummary {
+  background: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.planSummary h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.planSummary p {
+  color: #4f46e5;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.paymentMethod {
+  margin-bottom: 1.5rem;
+}
+
+.paymentMethod label {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.paymentMethod label:hover {
+  border-color: #4f46e5;
+}
+
+.paymentMethod input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.cardForm {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #4338ca;
+}
+
+.submitButton:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+/* ===== Skeleton Loader ===== */
+
+.skeletonCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem;
+  background: #fff;
+}
+
+.skeletonTitle,
+.skeletonText,
+.skeletonTextSmall,
+.skeletonPrice,
+.skeletonButton,
+.skeletonFeature {
+  background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 37%, #e5e7eb 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+  border-radius: 6px;
+}
+
+/* Sizes */
+.skeletonTitle {
+  height: 28px;
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.skeletonText {
+  height: 14px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.skeletonTextSmall {
+  height: 12px;
+  width: 60%;
+  margin-bottom: 1.5rem;
+}
+
+.skeletonPrice {
+  height: 32px;
+  width: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.skeletonButton {
+  height: 48px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.skeletonFeature {
+  height: 14px;
+  width: 80%;
+  margin-bottom: 0.75rem;
+}
+
+/* Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}

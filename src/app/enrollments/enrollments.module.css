@@ -1,0 +1,274 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.breadcrumb a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #6b7280;
+  font-size: 1.125rem;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  color: #6b7280;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter:hover {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+.filter.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.enrollmentsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.enrollmentCard {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* make grid items fill available space */
+}
+.enrollmentCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 180px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.progressBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.progressFill {
+  height: 100%;
+  background: #10b981;
+  transition: width 0.3s ease;
+}
+
+.cardContent {
+  padding: 1.5rem;
+  flex-grow: 1; /* push actions to bottom */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category {
+  color: #3b82f6;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.instructor {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.continueButton {
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.continueButton:hover {
+  background: #2563eb;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition:
+    color 0.2s,
+    background 0.2s;
+}
+
+.menuButton:hover {
+  color: #6b7280;
+  background: #f3f4f6;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #6b7280;
+}
+
+.emptyState h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem;
+  color: #374151;
+}
+
+.emptyState p {
+  margin-bottom: 1.5rem;
+}
+
+.exploreButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.exploreButton:hover {
+  background: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .enrollmentsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .header h1 {
+    font-size: 1.875rem;
+  }
+}
+/* 🔹 Skeleton Loader */
+.skeleton {
+  background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 37%, #e5e7eb 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+  border-radius: 6px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+.skeletonText {
+  height: 18px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.skeletonTextSmall {
+  height: 14px;
+  width: 60%;
+  margin-bottom: 8px;
+}
+
+.skeletonButton {
+  height: 36px;
+  width: 140px;
+  border-radius: 6px;
+}
+
+.skeletonIcon {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}

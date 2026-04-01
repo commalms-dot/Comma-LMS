@@ -1,0 +1,16 @@
+.clients-list {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 60px;
+}
+
+.clients-list__content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: var(--space-lg);
+	width: 80%;
+}
+

@@ -1,0 +1,67 @@
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid #e3e0ff;
+  box-shadow: 0 2px 6px rgba(10,20,50,0.03);
+}
+
+.title {
+  font-weight: 700;
+  color: #312e81;
+  margin-bottom: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: #374151;
+  font-weight: 600;
+}
+
+.input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d6d0ff;
+  background: #f4f3ff;
+  font-size: 14px;
+  outline: none;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 4px rgba(79,70,229,0.08);
+  border-color: #4f46e5;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.saveBtn {
+  background: linear-gradient(90deg,#4f46e5,#8b5cf6);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.message {
+  background: #f3f0ff;
+  color: #5b21b6;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e0d7ff;
+  font-weight: 600;
+}

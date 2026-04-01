@@ -1,0 +1,10 @@
+.podcast-history__header {
+	padding: var(--space-md) 0;
+}
+
+.podcast-history__header p {
+	color: var(--color-primary-100);
+	font-size: var(--text-2xl);
+	font-weight: var(--fw-medium);
+}
+

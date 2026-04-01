@@ -1,0 +1,23 @@
+.signup-form__form > div {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-lg);
+	margin-bottom: var(--space-unit);
+}
+
+.signup-form__subtitle {
+	font-size: var(--text-lg);
+	color: var(--color-text-100);
+	text-align: right;
+	margin-bottom: var(--space-lg);
+}
+
+.signup-form__subtitle a {
+	color: var(--color-link);
+	font-weight: var(--fw-bold);
+}
+
+.signup-form__button-wrapper {
+	display: flex;
+	align-items: flex-end;
+}

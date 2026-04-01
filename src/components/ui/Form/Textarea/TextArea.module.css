@@ -1,0 +1,49 @@
+.form-group {
+	width: 100%;
+	position: relative;
+}
+
+.form-group__textarea {
+	width: 100%;
+	background: transparent;
+	font-size: var(--text-md);
+	border-radius: 5px;
+	padding: 8px 12px;
+	border: solid 1px var(--color-border-100);
+	outline: none;
+	box-sizing: border-box;
+	transition: 0.2s ease all;
+}
+
+.form-group__textarea:focus,
+.form-group__textarea:active {
+	outline: none;
+	border-width: 2px;
+	background: transparent;
+}
+
+.form-group__textarea--error {
+	border-color: var(--color-danger-100);
+}
+
+.form-group__textarea--no-resizing {
+	resize: none;
+}
+
+.form-group__label {
+	display: block;
+	font-size: var(--text-md);
+	font-weight: var(--fw-medium);
+	color: var(--color-primary-100);
+	line-height: var(--line-height-normal);
+	margin-bottom: var(--space-sm);
+}
+
+.form-group__error-message {
+	position: absolute;
+	top: calc(100% + 4px);
+	left: 16px;
+	font-size: var(--text-sm);
+	color: var(--color-danger-100);
+}
+

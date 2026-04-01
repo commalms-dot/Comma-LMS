@@ -1,0 +1,13 @@
+node_modules/
+node_modules/
+.next/
+node_modules/
+.next/
+out/
+.DS_Store
+.next/
+node_modules/
+node_modules/
+.next/
+public/videos/
+*.mp4

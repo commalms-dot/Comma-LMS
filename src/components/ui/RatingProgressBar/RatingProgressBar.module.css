@@ -1,0 +1,29 @@
+.rating-progress-bar-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.rating-progress-bar__label {
+	width: 80px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	font-weight: var(--fw-medium);
+	font-size: var(--text-md);
+}
+
+.rating-progress-bar {
+	width: 100%;
+	height: 32px;
+	overflow: hidden;
+	position: relative;
+	background: var(--color-neutral-600);
+}
+
+.rating-progress-bar__progress {
+	height: 100%;
+	background-color: var(--color-gold);
+	transition: width 0.3s ease;
+}
+

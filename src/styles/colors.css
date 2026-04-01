@@ -1,0 +1,94 @@
+:root {
+	--color-white: #ffffff;
+	--color-black: #000000;
+
+	/* Gray Shades */
+	--color-gray-100: #d9d9d9;
+	--color-gray-150: #f0f1f1;
+	--color-gray-200: #afb7bf;
+	--color-gray-300: #deecf1;
+	--color-gray-400: #e3e5e7;
+	--color-gray-500: #e9eaeb;
+	--color-gray-600: #eeeefc;
+	--color-gray-700: #e0e0e0;
+	--color-gray-800: #f6f6f6;
+	--color-gray-900: #f0f0f0;
+	--color-gray-1000: #f1f1f1;
+	--color-gray-1100: #dfdfdf;
+	--color-gray-1200: #dbdbdb;
+	--color-gray-1300: #c5c5c5;
+	--color-gray-1400: #c9c9c9;
+	--color-gray-1500: #b7b7b7;
+	--color-gray-1600: #b0b0b0;
+	--color-gray-1700: #9a9a9a;
+	--color-gray-1800: #a4a4a4;
+	--color-gray-1900: #828282;
+	--color-gray-2000: #8c8c8c;
+	--color-gray-2100: #a0a0a0;
+	--color-gray-2200: #939393;
+	--color-gray-2300: #959595;
+	--color-gray-2400: #8b8b8b;
+	--color-gray-2500: #707070;
+	--color-gray-2600: #757575;
+	--color-gray-2700: #626262;
+	--color-gray-2800: #655f5f;
+	--color-gray-2900: #536477;
+	--color-gray-3000: #484848;
+	--color-gray-3100: #1b1a1a;
+	/* Blue Shades */
+	--color-blue-100: #a3aed0;
+	--color-blue-200: #2e52b2;
+	--color-blue-300: #4e54ab;
+	--color-blue-500: #383874;
+	--color-blue-600: #0b243f;
+	--color-blue-700: #1f364f;
+
+	/* Red Shades */
+	--color-red-100: #ff5c00;
+	--color-red-200: #ff5646;
+	--color-red-300: #d80027;
+
+	--color-blue-link: #0064d1;
+
+	/* Other Colors */
+	--color-purple-100: #7733ff;
+	--color-purple-200: rgba(78, 84, 171, 0.1);
+	--color-green-100: #76feb5;
+
+	--color-primary-100: var(--color-blue-600);
+	--color-primary-200: var(--color-blue-300);
+	--color-primary-300: var(--color-blue-700);
+
+	--color-secondary-100: #e7e9eb;
+
+	--color-neutral-100: var(--color-gray-500);
+	--color-neutral-200: var(--color-gray-150);
+	--color-neutral-300: var(--color-gray-2800);
+	--color-neutral-400: var(--color-gray-3000);
+	--color-neutral-500: var(--color-gray-3100);
+	--color-neutral-600: #e5e7e8;
+	--color-neutral-700: #d9dddf;
+
+	--color-text-100: var(--color-gray-2000);
+	--color-text-200: var(--color-gray-200);
+	--color-text-300: var(--color-gray-1000);
+	--color-text-400: #677686;
+	---color-secondary-text: #65676b;
+
+	--color-link: var(--color-blue-300);
+
+	--color-border-100: var(--color-gray-1300);
+	--color-border-200: var(--color-gray-1900);
+	--color-background: var(--color-gray-150);
+
+	--color-gold: #ffc107;
+
+	--color-danger-100: #ff4d4f;
+
+	--home-gradient: linear-gradient(
+		180deg,
+		rgba(255, 224, 200, 0.2) 0%,
+		rgba(255, 253, 251, 0) 100%
+	);
+}
+

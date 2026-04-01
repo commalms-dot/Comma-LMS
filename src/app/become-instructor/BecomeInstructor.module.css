@@ -1,0 +1,87 @@
+.become-instructor-page__content {
+  padding: var(--space-6xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.become-instructor-page__banner {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  background-image: url("/images/become-instructor-banner-bg.jpeg");
+
+  background-size: cover;
+  background-position: center 20%;
+  z-index: 100;
+}
+
+.become-instructor-page__banner__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.become-instructor-page-banner__text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--color-white);
+}
+
+.become-instructor-page-banner__text > div {
+  max-width: 617px;
+}
+
+.become-instructor-page-banner__text h2 {
+  font-weight: var(--fw-bold);
+  font-size: var(--text-4xl);
+  margin-bottom: var(--space-unit);
+  line-height: var(--line-height-normal);
+  text-align: center;
+}
+
+.become-instructor-page-banner__text p {
+  font-weight: var(--fw-light);
+  font-size: var(--text-2xl);
+  line-height: var(--line-height-loose);
+  margin-bottom: var(--space-unit);
+  text-align: center;
+}
+
+.become-instructor-page__header {
+  max-width: 617px;
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+}
+
+.become-instructor-page__header h1 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-md);
+}
+
+.become-instructor-page__header p {
+  font-size: var(--text-md);
+  font-weight: var(--fw-light);
+}
+
+.become-instructor-page__form-container {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .become-instructor-page__content {
+    padding: var(--space-3xl);
+  }
+}

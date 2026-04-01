@@ -1,0 +1,27 @@
+.signin-form__form > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-unit);
+}
+
+.signin-form__subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-text-100);
+  text-align: right;
+  margin-bottom: var(--space-lg);
+}
+
+.signin-form__subtitle a {
+  color: var(--color-link);
+  font-weight: var(--fw-bold);
+}
+
+.signin-form__button-wrapper {
+  display: flex;
+  height: 48px;
+}
+
+.signin-form__button {
+  align-self: flex-end;
+}

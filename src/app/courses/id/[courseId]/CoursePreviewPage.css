@@ -1,0 +1,66 @@
+.course-preview-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.course-preview-page__top-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-md);
+}
+
+.course-preview-page__left-side {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.course-preview-page__right-side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.course-preview-page__bottom-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .course-preview-page {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* 🔹 Spinner Loader */
+.course-preview-loader {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #e5e7eb;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.course-preview-page__notes-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

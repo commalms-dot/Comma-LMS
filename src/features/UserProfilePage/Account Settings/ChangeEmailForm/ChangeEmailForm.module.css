@@ -1,0 +1,12 @@
+.account-settings-form {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-lg);
+}
+
+.account-settings-form__button-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: var(--space-xl);
+}
+

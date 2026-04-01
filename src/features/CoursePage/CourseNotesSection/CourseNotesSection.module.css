@@ -1,0 +1,109 @@
+.notesSection {
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .title::before {
+    content: "📝";
+  }
+  
+  .addNote {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .addNote textarea {
+    width: 100%;
+    min-height: 90px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    resize: vertical;
+    font-size: 0.95rem;
+    color: #111;
+  }
+  
+  .addNote button {
+    align-self: flex-end;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    background-color: #22c55e;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .addNote button:hover {
+    background-color: #16a34a;
+  }
+  
+  .notesList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .noteItem {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 0.9rem;
+    background-color: #f9fafb;
+    position: relative;
+    transition: background 0.3s;
+  }
+  
+  .noteItem:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .noteActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+  
+  .noteActions button {
+    background: none;
+    border: none;
+    color: #2563eb;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .noteActions button:hover {
+    text-decoration: underline;
+  }
+  
+  .noNotes {
+    text-align: center;
+    color: #9ca3af;
+  }
+  
+  .notLoggedIn {
+    text-align: center;
+    background: #f9fafb;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #6b7280;
+  }
+  
