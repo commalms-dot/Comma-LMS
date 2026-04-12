@@ -17,6 +17,7 @@ interface SignupFormData {
   email: string;
   password: string;
   country: string;
+  mobile: string;
 }
 
 const schema = generateValidationSchema([
@@ -24,6 +25,7 @@ const schema = generateValidationSchema([
   "email",
   "password",
   "country",
+  "mobile",
 ]);
 
 const SignupForm = () => {
@@ -41,8 +43,14 @@ const SignupForm = () => {
 
   const onSubmit = async (data: SignupFormData) => {
     try {
+      let formattedMobile = data.mobile;
+
+      if (formattedMobile.startsWith("0")) {
+        formattedMobile = "+2" + formattedMobile;
+      }
       await signup({
         ...data,
+        mobile: formattedMobile,
         role: "USER",
       }).unwrap();
       toast.success("Signup successful");
@@ -75,6 +83,12 @@ const SignupForm = () => {
           label={"Enter your Email"}
           {...register("email")}
           error={errors.email}
+        />
+        <Input
+          label={"Enter your phone number"}
+          placeholder="+2010XXXXXXXX"
+          {...register("mobile")}
+          error={errors.mobile}
         />
         <Input
           type="password"

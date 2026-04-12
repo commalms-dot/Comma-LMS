@@ -30,7 +30,10 @@ const validationRules = {
     .email("Invalid email format")
     .required("Email is required"),
   gender: yup.string().required("Gender is required"),
-  mobile: yup.string().required("Mobile is required"),
+  mobile: yup
+    .string()
+    .required("Phone number is required")
+    .matches(/^01[0-2,5][0-9]{8}$/, "Invalid phone number"),
   nationality: yup.string().required("Nationality is required"),
   jobTitle: yup.string().required("Job Title is required"),
   organization: yup.string().required("organization is required"),
@@ -48,7 +51,7 @@ const validationRules = {
   graduationYear: yup
     .number()
     .transform((value, originalValue) =>
-      String(originalValue).trim() === "" ? null : value
+      String(originalValue).trim() === "" ? null : value,
     )
     .nullable()
     .required("Graduation Year is required")
@@ -58,7 +61,7 @@ const validationRules = {
   yearsOfTrainingExperience: yup
     .number()
     .transform((value, originalValue) =>
-      String(originalValue).trim() === "" ? null : value
+      String(originalValue).trim() === "" ? null : value,
     )
     .nullable()
     .required("Years of training experience is required")
@@ -100,7 +103,7 @@ const publicProfileFields = {
   graduationYear: yup
     .number()
     .transform((value, originalValue) =>
-      String(originalValue).trim() === "" ? null : value
+      String(originalValue).trim() === "" ? null : value,
     )
     .nullable()
     .min(maxGraduationYear, `Year must be ${maxGraduationYear} or later`)
@@ -109,7 +112,7 @@ const publicProfileFields = {
   yearsOfTrainingExperience: yup
     .number()
     .transform((value, originalValue) =>
-      String(originalValue).trim() === "" ? null : value
+      String(originalValue).trim() === "" ? null : value,
     )
     .nullable()
     .min(0, "Years of experience must be at least 0")

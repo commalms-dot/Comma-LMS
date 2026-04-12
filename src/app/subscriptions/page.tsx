@@ -76,14 +76,13 @@ export default function SubscriptionsPage() {
       if (!currentPlan) return;
 
       // Map your plan to the API expected string
-      const planMapping: Record<string, "MONTHLY" | "SIX_MONTHS" | "YEARLY"> = {
-        Monthly: "MONTHLY",
-        "6 Months": "SIX_MONTHS",
-        Yearly: "YEARLY",
-        // adjust the keys to match your plan.name or billingCycle
-      };
+      // const planMapping: Record<string, "MONTHLY" | "SIX_MONTHS" | "YEARLY"> = {
+      //   Monthly: "MONTHLY",
+      //   "6 Months": "SIX_MONTHS",
+      //   Yearly: "YEARLY",
+      // };
 
-      const apiPlan = planMapping[currentPlan.name] || "MONTHLY";
+      // const apiPlan = planMapping[currentPlan.name] || "MONTHLY";
 
       const response = await fetch(
         `${process.env.NEXT_PUBLIC_SERVER_URL}/payments/checkout`,
@@ -94,7 +93,7 @@ export default function SubscriptionsPage() {
             Authorization: `Bearer ${token}`,
           },
           body: JSON.stringify({
-            plan: apiPlan, // only send "plan"
+            planId: currentPlan.id,
           }),
         },
       );
